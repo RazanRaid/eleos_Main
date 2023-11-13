@@ -9,6 +9,7 @@ import SwiftUI
 
 struct TabsView: View {
     @StateObject var todoManager = TodoManager()
+    @StateObject var plantManager = PlantManager()
     @EnvironmentObject var progressData: ProgressData
     var body: some View {
         
@@ -19,13 +20,13 @@ struct TabsView: View {
                     Text("Home")
                 }
             
-                MainTodoListView(todoManager: TodoManager())
+            MainTodoListView(todoManager: TodoManager(), plantManager: PlantManager())
                     .tabItem {
                         Image(systemName: "list.bullet.clipboard")
                         Text("Todo")
                     }
                 
-                PlantListView()
+            PlantListView(plantManager: PlantManager())
                     .tabItem {
                         Image(systemName: "leaf.fill")
                         Text("Plants")

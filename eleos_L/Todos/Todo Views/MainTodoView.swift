@@ -11,6 +11,7 @@ struct MainTodoListView: View {
     
     @EnvironmentObject private var dropsCounter : DropCounter
     @ObservedObject var todoManager : TodoManager
+    @ObservedObject var plantManager : PlantManager
     @State private var showSheet = false
     @State private var showSampleDataalert = false
     
@@ -74,16 +75,16 @@ struct MainTodoListView: View {
             }
             .navigationTitle("Todos 🌱‧₊˚𖦹")
             .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
-                    EditButton()
-                    }
+//                ToolbarItem(placement: .navigationBarLeading) {
+//                    EditButton()
+//                    }
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     Button{
                        showSheet=true
                     }label: {
                         Image(systemName: "plus")
                     }
-                   CounterView(todoManager: todoManager)
+                    CounterView(todoManager: todoManager, plantManager: plantManager )
                 }
                 }
             .sheet(isPresented: $showSheet) {
@@ -98,7 +99,7 @@ struct MainTodoListView: View {
    
 struct MainTodoListView_Previews: PreviewProvider {
     static var previews: some View {
-        MainTodoListView(todoManager: TodoManager())
+        MainTodoListView(todoManager: TodoManager(), plantManager: PlantManager())
             .environmentObject(DropCounter())
     }
 }

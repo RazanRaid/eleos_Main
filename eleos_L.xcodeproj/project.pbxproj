@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C4657AEA2AF688EE0038FDFD /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4657AE92AF688EE0038FDFD /* ProgressBar.swift */; };
+		C48521D52B02245000186571 /* PlantManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48521D42B02245000186571 /* PlantManager.swift */; };
 		C492689E2ACAEA28003EA6F0 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C492689D2ACAEA28003EA6F0 /* CounterView.swift */; };
 		C49268A12ACAF3A1003EA6F0 /* MainTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49268A02ACAF3A1003EA6F0 /* MainTodoView.swift */; };
 		C49268A32ACAF414003EA6F0 /* CreateTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49268A22ACAF414003EA6F0 /* CreateTodoView.swift */; };
@@ -53,6 +54,7 @@
 
 /* Begin PBXFileReference section */
 		C4657AE92AF688EE0038FDFD /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		C48521D42B02245000186571 /* PlantManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantManager.swift; sourceTree = "<group>"; };
 		C492689D2ACAEA28003EA6F0 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		C49268A02ACAF3A1003EA6F0 /* MainTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTodoView.swift; sourceTree = "<group>"; };
 		C49268A22ACAF414003EA6F0 /* CreateTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTodoView.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 			children = (
 				C4C65C5D2A9B2D810019383C /* Plant Struct.swift */,
 				C4C65C5F2A9B2D950019383C /* PlantData.swift */,
+				C48521D42B02245000186571 /* PlantManager.swift */,
 			);
 			path = "plant data";
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				EC5889022A980E5E00FF3A5A /* DataValue.swift in Sources */,
 				ECABDB4E2AD1FC6100BA7AE7 /* forecastModel.swift in Sources */,
 				ECABDB4C2AD1FC4B00BA7AE7 /* shapes.swift in Sources */,
+				C48521D52B02245000186571 /* PlantManager.swift in Sources */,
 				EC58886C2A93AE1400FF3A5A /* ContentView.swift in Sources */,
 				C49268A32ACAF414003EA6F0 /* CreateTodoView.swift in Sources */,
 				EC5888A42A94D80800FF3A5A /* Schedule.swift in Sources */,
