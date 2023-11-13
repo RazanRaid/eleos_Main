@@ -9,10 +9,9 @@ import SwiftUI
 
 struct PlantListView: View {
     
-//    @EnvironmentObject private var dropCounter : DropCounter
+    @EnvironmentObject private var dropCounter : DropCounter
     var todoManager = TodoManager()
     var plants: [Plant] = plantsData
-    @StateObject var plantManager : PlantManager
     
     var body: some View {
         NavigationStack{
@@ -28,7 +27,7 @@ struct PlantListView: View {
             .navigationTitle("Plants 🪴୭ ˚.ᵎᵎ")
             .toolbar {
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
-                    CounterView(todoManager: todoManager, plantManager: plantManager)
+                   CounterView(todoManager: todoManager)
                 }
                 }
 
@@ -41,8 +40,8 @@ struct PlantListView: View {
     }
     struct PlantListView_Previews: PreviewProvider {
         static var previews: some View {
-            PlantListView(plants: plantsData, plantManager: PlantManager())
-//                .environmentObject(DropCounter())
+            PlantListView(plants: plantsData)
+                .environmentObject(DropCounter())
         }
     }
 

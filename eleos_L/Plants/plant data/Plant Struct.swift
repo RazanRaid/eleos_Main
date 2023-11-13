@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct Plant: Identifiable, Codable {
+struct Plant: Identifiable {
     var id = UUID()
     var Name: String
     

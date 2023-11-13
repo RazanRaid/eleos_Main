@@ -10,7 +10,7 @@ import SwiftUI
 struct ProgressBar: View {
     var value: Double
     var maxValue: Double
-//    @EnvironmentObject var progressData: ProgressData
+    @EnvironmentObject var progressData: ProgressData
     
     var body: some View {
         GeometryReader { geometry in
@@ -33,6 +33,6 @@ struct ProgressBar: View {
 
 #Preview {
     ProgressBar(value: 1, maxValue: 10)
-//        .environmentObject(ProgressData())
+        .environmentObject(ProgressData())
                 
 }
