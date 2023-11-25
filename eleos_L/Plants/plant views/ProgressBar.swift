@@ -31,8 +31,8 @@ struct ProgressBar: View {
     }
 }
 
-#Preview {
-    ProgressBar(value: 1, maxValue: 10)
-        .environmentObject(ProgressData())
-                
+struct ProgressBar_Preview : PreviewProvider {
+    static var previews: some View {
+        ProgressBar (value: 1, maxValue: 10)
+    }
 }
