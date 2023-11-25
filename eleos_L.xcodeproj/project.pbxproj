@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4657AEA2AF688EE0038FDFD /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4657AE92AF688EE0038FDFD /* ProgressBar.swift */; };
+		C492689E2ACAEA28003EA6F0 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C492689D2ACAEA28003EA6F0 /* CounterView.swift */; };
+		C49268A12ACAF3A1003EA6F0 /* MainTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49268A02ACAF3A1003EA6F0 /* MainTodoView.swift */; };
+		C49268A32ACAF414003EA6F0 /* CreateTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49268A22ACAF414003EA6F0 /* CreateTodoView.swift */; };
+		C49268A72ACAF480003EA6F0 /* TodoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49268A62ACAF480003EA6F0 /* TodoDetailView.swift */; };
+		C49268AB2ACAF4D2003EA6F0 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49268AA2ACAF4D2003EA6F0 /* Todo.swift */; };
+		C49268AF2ACAF514003EA6F0 /* TodoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49268AE2ACAF514003EA6F0 /* TodoManager.swift */; };
+		C49268B12ACAF54D003EA6F0 /* Todo+sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49268B02ACAF54D003EA6F0 /* Todo+sample.swift */; };
+		C49268B72ACD1F5C003EA6F0 /* DateFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49268B62ACD1F5C003EA6F0 /* DateFuncs.swift */; };
+		C494FABF2ADBB07A0018FF2B /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C494FABE2ADBB07A0018FF2B /* Counter.swift */; };
+		C4C65C552A9B2CD90019383C /* PlantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C65C542A9B2CD90019383C /* PlantListView.swift */; };
+		C4C65C572A9B2CFA0019383C /* PlantHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C65C562A9B2CFA0019383C /* PlantHeaderView.swift */; };
+		C4C65C592A9B2D150019383C /* PlantRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C65C582A9B2D150019383C /* PlantRowView.swift */; };
+		C4C65C5B2A9B2D360019383C /* PlantDetailview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C65C5A2A9B2D360019383C /* PlantDetailview.swift */; };
+		C4C65C5E2A9B2D810019383C /* Plant Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C65C5D2A9B2D810019383C /* Plant Struct.swift */; };
+		C4C65C602A9B2D950019383C /* PlantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C65C5F2A9B2D950019383C /* PlantData.swift */; };
+		C4C65C842A9B75370019383C /* DropsRequiredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C65C832A9B75370019383C /* DropsRequiredView.swift */; };
+		EC58886A2A93AE1400FF3A5A /* eleos_LApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5888692A93AE1400FF3A5A /* eleos_LApp.swift */; };
+		EC58886C2A93AE1400FF3A5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC58886B2A93AE1400FF3A5A /* ContentView.swift */; };
+		EC58886E2A93AE1700FF3A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC58886D2A93AE1700FF3A5A /* Assets.xcassets */; };
+		EC5888712A93AE1700FF3A5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5888702A93AE1700FF3A5A /* Preview Assets.xcassets */; };
+		EC5888962A94D3D800FF3A5A /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5888952A94D3D800FF3A5A /* QuizModel.swift */; };
+		EC5888982A94D40200FF3A5A /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5888972A94D40200FF3A5A /* QuizView.swift */; };
+		EC58889A2A94D42300FF3A5A /* FinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5888992A94D42300FF3A5A /* FinalView.swift */; };
+		EC58889C2A94D44B00FF3A5A /* eleos_questionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC58889B2A94D44B00FF3A5A /* eleos_questionApp.swift */; };
+		EC58889E2A94D7CE00FF3A5A /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC58889D2A94D7CE00FF3A5A /* TabsView.swift */; };
+		EC5888A02A94D7EB00FF3A5A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC58889F2A94D7EB00FF3A5A /* Home.swift */; };
+		EC5888A42A94D80800FF3A5A /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5888A32A94D80800FF3A5A /* Schedule.swift */; };
+		EC5888AC2A95512E00FF3A5A /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5888AB2A95512E00FF3A5A /* CircularProgressView.swift */; };
+		EC5889002A980E1F00FF3A5A /* HomeSdhedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5888FF2A980E1F00FF3A5A /* HomeSdhedule.swift */; };
+		EC5889022A980E5E00FF3A5A /* DataValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5889012A980E5E00FF3A5A /* DataValue.swift */; };
+		EC5889042A980E7A00FF3A5A /* CustomDataPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5889032A980E7A00FF3A5A /* CustomDataPicker.swift */; };
+		EC5889062A980E9F00FF3A5A /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5889052A980E9F00FF3A5A /* Task.swift */; };
+		EC5889102A981B0A00FF3A5A /* PlayfairDisplay-Regular in Resources */ = {isa = PBXBuildFile; fileRef = EC58890F2A981B0A00FF3A5A /* PlayfairDisplay-Regular */; };
+		ECABDB4C2AD1FC4B00BA7AE7 /* shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECABDB4B2AD1FC4B00BA7AE7 /* shapes.swift */; };
+		ECABDB4E2AD1FC6100BA7AE7 /* forecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECABDB4D2AD1FC6100BA7AE7 /* forecastModel.swift */; };
+		ECABDB502AD1FC7400BA7AE7 /* ForecastCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECABDB4F2AD1FC7400BA7AE7 /* ForecastCard.swift */; };
+		ECABDB522AD1FC9400BA7AE7 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECABDB512AD1FC9400BA7AE7 /* Blur.swift */; };
+		ECABDB542AD1FCAF00BA7AE7 /* extesions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECABDB532AD1FCAF00BA7AE7 /* extesions.swift */; };
+		ECABDB562AD1FCC200BA7AE7 /* Scrollers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECABDB552AD1FCC200BA7AE7 /* Scrollers.swift */; };
+		ECABDB582AD1FCD900BA7AE7 /* HomeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECABDB572AD1FCD900BA7AE7 /* HomeWidget.swift */; };
+		ECABDB5A2AD1FCEC00BA7AE7 /* eleosHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECABDB592AD1FCEC00BA7AE7 /* eleosHome.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C4657AE92AF688EE0038FDFD /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		C492689D2ACAEA28003EA6F0 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		C49268A02ACAF3A1003EA6F0 /* MainTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTodoView.swift; sourceTree = "<group>"; };
+		C49268A22ACAF414003EA6F0 /* CreateTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTodoView.swift; sourceTree = "<group>"; };
+		C49268A62ACAF480003EA6F0 /* TodoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailView.swift; sourceTree = "<group>"; };
+		C49268AA2ACAF4D2003EA6F0 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		C49268AE2ACAF514003EA6F0 /* TodoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoManager.swift; sourceTree = "<group>"; };
+		C49268B02ACAF54D003EA6F0 /* Todo+sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todo+sample.swift"; sourceTree = "<group>"; };
+		C49268B62ACD1F5C003EA6F0 /* DateFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFuncs.swift; sourceTree = "<group>"; };
+		C494FABE2ADBB07A0018FF2B /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		C4C65C542A9B2CD90019383C /* PlantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantListView.swift; sourceTree = "<group>"; };
+		C4C65C562A9B2CFA0019383C /* PlantHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantHeaderView.swift; sourceTree = "<group>"; };
+		C4C65C582A9B2D150019383C /* PlantRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantRowView.swift; sourceTree = "<group>"; };
+		C4C65C5A2A9B2D360019383C /* PlantDetailview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailview.swift; sourceTree = "<group>"; };
+		C4C65C5D2A9B2D810019383C /* Plant Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plant Struct.swift"; sourceTree = "<group>"; };
+		C4C65C5F2A9B2D950019383C /* PlantData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantData.swift; sourceTree = "<group>"; };
+		C4C65C832A9B75370019383C /* DropsRequiredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropsRequiredView.swift; sourceTree = "<group>"; };
+		EC5888662A93AE1400FF3A5A /* eleos_L.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eleos_L.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5888692A93AE1400FF3A5A /* eleos_LApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eleos_LApp.swift; sourceTree = "<group>"; };
+		EC58886B2A93AE1400FF3A5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC58886D2A93AE1700FF3A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC5888702A93AE1700FF3A5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC5888952A94D3D800FF3A5A /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		EC5888972A94D40200FF3A5A /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		EC5888992A94D42300FF3A5A /* FinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalView.swift; sourceTree = "<group>"; };
+		EC58889B2A94D44B00FF3A5A /* eleos_questionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eleos_questionApp.swift; sourceTree = "<group>"; };
+		EC58889D2A94D7CE00FF3A5A /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
+		EC58889F2A94D7EB00FF3A5A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		EC5888A32A94D80800FF3A5A /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		EC5888AB2A95512E00FF3A5A /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		EC5888FF2A980E1F00FF3A5A /* HomeSdhedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSdhedule.swift; sourceTree = "<group>"; };
+		EC5889012A980E5E00FF3A5A /* DataValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataValue.swift; sourceTree = "<group>"; };
+		EC5889032A980E7A00FF3A5A /* CustomDataPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDataPicker.swift; sourceTree = "<group>"; };
+		EC5889052A980E9F00FF3A5A /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		EC58890F2A981B0A00FF3A5A /* PlayfairDisplay-Regular */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "PlayfairDisplay-Regular"; sourceTree = "<group>"; };
+		ECABDB4B2AD1FC4B00BA7AE7 /* shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shapes.swift; sourceTree = "<group>"; };
+		ECABDB4D2AD1FC6100BA7AE7 /* forecastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forecastModel.swift; sourceTree = "<group>"; };
+		ECABDB4F2AD1FC7400BA7AE7 /* ForecastCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCard.swift; sourceTree = "<group>"; };
+		ECABDB512AD1FC9400BA7AE7 /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
+		ECABDB532AD1FCAF00BA7AE7 /* extesions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extesions.swift; sourceTree = "<group>"; };
+		ECABDB552AD1FCC200BA7AE7 /* Scrollers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrollers.swift; sourceTree = "<group>"; };
+		ECABDB572AD1FCD900BA7AE7 /* HomeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWidget.swift; sourceTree = "<group>"; };
+		ECABDB592AD1FCEC00BA7AE7 /* eleosHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eleosHome.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC5888632A93AE1400FF3A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C492689F2ACAF358003EA6F0 /* Todos */ = {
+			isa = PBXGroup;
+			children = (
+				C49268A92ACAF4B6003EA6F0 /* Models */,
+				C49268A82ACAF49E003EA6F0 /* Todo Views */,
+			);
+			path = Todos;
+			sourceTree = "<group>";
+		};
+		C49268A82ACAF49E003EA6F0 /* Todo Views */ = {
+			isa = PBXGroup;
+			children = (
+				C49268A22ACAF414003EA6F0 /* CreateTodoView.swift */,
+				C49268A62ACAF480003EA6F0 /* TodoDetailView.swift */,
+				C492689D2ACAEA28003EA6F0 /* CounterView.swift */,
+				C49268A02ACAF3A1003EA6F0 /* MainTodoView.swift */,
+			);
+			path = "Todo Views";
+			sourceTree = "<group>";
+		};
+		C49268A92ACAF4B6003EA6F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C49268AA2ACAF4D2003EA6F0 /* Todo.swift */,
+				C49268B62ACD1F5C003EA6F0 /* DateFuncs.swift */,
+				C49268AE2ACAF514003EA6F0 /* TodoManager.swift */,
+				C49268B02ACAF54D003EA6F0 /* Todo+sample.swift */,
+				C494FABE2ADBB07A0018FF2B /* Counter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C4C65C522A9B2C8B0019383C /* Plants */ = {
+			isa = PBXGroup;
+			children = (
+				C4C65C5C2A9B2D480019383C /* plant data */,
+				C4C65C532A9B2C9F0019383C /* plant views */,
+			);
+			path = Plants;
+			sourceTree = "<group>";
+		};
+		C4C65C532A9B2C9F0019383C /* plant views */ = {
+			isa = PBXGroup;
+			children = (
+				C4C65C542A9B2CD90019383C /* PlantListView.swift */,
+				C4C65C562A9B2CFA0019383C /* PlantHeaderView.swift */,
+				C4C65C582A9B2D150019383C /* PlantRowView.swift */,
+				C4C65C5A2A9B2D360019383C /* PlantDetailview.swift */,
+				C4C65C832A9B75370019383C /* DropsRequiredView.swift */,
+				C4657AE92AF688EE0038FDFD /* ProgressBar.swift */,
+			);
+			path = "plant views";
+			sourceTree = "<group>";
+		};
+		C4C65C5C2A9B2D480019383C /* plant data */ = {
+			isa = PBXGroup;
+			children = (
+				C4C65C5D2A9B2D810019383C /* Plant Struct.swift */,
+				C4C65C5F2A9B2D950019383C /* PlantData.swift */,
+			);
+			path = "plant data";
+			sourceTree = "<group>";
+		};
+		EC58885D2A93AE1400FF3A5A = {
+			isa = PBXGroup;
+			children = (
+				EC5888682A93AE1400FF3A5A /* eleos_L */,
+				EC5888672A93AE1400FF3A5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC5888672A93AE1400FF3A5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC5888662A93AE1400FF3A5A /* eleos_L.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC5888682A93AE1400FF3A5A /* eleos_L */ = {
+			isa = PBXGroup;
+			children = (
+				EC5889072A9810A300FF3A5A /* question view */,
+				EC5888FE2A980E0C00FF3A5A /* scheule */,
+				EC5888692A93AE1400FF3A5A /* eleos_LApp.swift */,
+				EC58886B2A93AE1400FF3A5A /* ContentView.swift */,
+				EC58889D2A94D7CE00FF3A5A /* TabsView.swift */,
+				C4C65C522A9B2C8B0019383C /* Plants */,
+				EC5888A32A94D80800FF3A5A /* Schedule.swift */,
+				C492689F2ACAF358003EA6F0 /* Todos */,
+				EC5888AB2A95512E00FF3A5A /* CircularProgressView.swift */,
+				EC58889F2A94D7EB00FF3A5A /* Home.swift */,
+				ECABDB4A2AD1FC3700BA7AE7 /* HomeLeget */,
+				EC58886D2A93AE1700FF3A5A /* Assets.xcassets */,
+				EC58886F2A93AE1700FF3A5A /* Preview Content */,
+			);
+			path = eleos_L;
+			sourceTree = "<group>";
+		};
+		EC58886F2A93AE1700FF3A5A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC58890F2A981B0A00FF3A5A /* PlayfairDisplay-Regular */,
+				EC5888702A93AE1700FF3A5A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC5888FE2A980E0C00FF3A5A /* scheule */ = {
+			isa = PBXGroup;
+			children = (
+				EC5888FF2A980E1F00FF3A5A /* HomeSdhedule.swift */,
+				EC5889012A980E5E00FF3A5A /* DataValue.swift */,
+				EC5889032A980E7A00FF3A5A /* CustomDataPicker.swift */,
+				EC5889052A980E9F00FF3A5A /* Task.swift */,
+			);
+			path = scheule;
+			sourceTree = "<group>";
+		};
+		EC5889072A9810A300FF3A5A /* question view */ = {
+			isa = PBXGroup;
+			children = (
+				EC5888952A94D3D800FF3A5A /* QuizModel.swift */,
+				EC58889B2A94D44B00FF3A5A /* eleos_questionApp.swift */,
+				EC5888972A94D40200FF3A5A /* QuizView.swift */,
+				EC5888992A94D42300FF3A5A /* FinalView.swift */,
+			);
+			path = "question view";
+			sourceTree = "<group>";
+		};
+		ECABDB4A2AD1FC3700BA7AE7 /* HomeLeget */ = {
+			isa = PBXGroup;
+			children = (
+				ECABDB592AD1FCEC00BA7AE7 /* eleosHome.swift */,
+				ECABDB552AD1FCC200BA7AE7 /* Scrollers.swift */,
+				ECABDB4B2AD1FC4B00BA7AE7 /* shapes.swift */,
+				ECABDB4D2AD1FC6100BA7AE7 /* forecastModel.swift */,
+				ECABDB4F2AD1FC7400BA7AE7 /* ForecastCard.swift */,
+				ECABDB512AD1FC9400BA7AE7 /* Blur.swift */,
+				ECABDB532AD1FCAF00BA7AE7 /* extesions.swift */,
+				ECABDB572AD1FCD900BA7AE7 /* HomeWidget.swift */,
+			);
+			path = HomeLeget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC5888652A93AE1400FF3A5A /* eleos_L */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5888742A93AE1700FF3A5A /* Build configuration list for PBXNativeTarget "eleos_L" */;
+			buildPhases = (
+				EC5888622A93AE1400FF3A5A /* Sources */,
+				EC5888632A93AE1400FF3A5A /* Frameworks */,
+				EC5888642A93AE1400FF3A5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eleos_L;
+			productName = eleos_L;
+			productReference = EC5888662A93AE1400FF3A5A /* eleos_L.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC58885E2A93AE1400FF3A5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EC5888652A93AE1400FF3A5A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EC5888612A93AE1400FF3A5A /* Build configuration list for PBXProject "eleos_L" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC58885D2A93AE1400FF3A5A;
+			productRefGroup = EC5888672A93AE1400FF3A5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC5888652A93AE1400FF3A5A /* eleos_L */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC5888642A93AE1400FF3A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5888712A93AE1700FF3A5A /* Preview Assets.xcassets in Resources */,
+				EC58886E2A93AE1700FF3A5A /* Assets.xcassets in Resources */,
+				EC5889102A981B0A00FF3A5A /* PlayfairDisplay-Regular in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC5888622A93AE1400FF3A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECABDB582AD1FCD900BA7AE7 /* HomeWidget.swift in Sources */,
+				ECABDB522AD1FC9400BA7AE7 /* Blur.swift in Sources */,
+				EC5888962A94D3D800FF3A5A /* QuizModel.swift in Sources */,
+				C4C65C5B2A9B2D360019383C /* PlantDetailview.swift in Sources */,
+				EC5889022A980E5E00FF3A5A /* DataValue.swift in Sources */,
+				ECABDB4E2AD1FC6100BA7AE7 /* forecastModel.swift in Sources */,
+				ECABDB4C2AD1FC4B00BA7AE7 /* shapes.swift in Sources */,
+				EC58886C2A93AE1400FF3A5A /* ContentView.swift in Sources */,
+				C49268A32ACAF414003EA6F0 /* CreateTodoView.swift in Sources */,
+				EC5888A42A94D80800FF3A5A /* Schedule.swift in Sources */,
+				C4657AEA2AF688EE0038FDFD /* ProgressBar.swift in Sources */,
+				EC5888982A94D40200FF3A5A /* QuizView.swift in Sources */,
+				ECABDB562AD1FCC200BA7AE7 /* Scrollers.swift in Sources */,
+				C494FABF2ADBB07A0018FF2B /* Counter.swift in Sources */,
+				C4C65C572A9B2CFA0019383C /* PlantHeaderView.swift in Sources */,
+				C4C65C592A9B2D150019383C /* PlantRowView.swift in Sources */,
+				EC58889C2A94D44B00FF3A5A /* eleos_questionApp.swift in Sources */,
+				C49268A12ACAF3A1003EA6F0 /* MainTodoView.swift in Sources */,
+				C49268AB2ACAF4D2003EA6F0 /* Todo.swift in Sources */,
+				C49268AF2ACAF514003EA6F0 /* TodoManager.swift in Sources */,
+				C4C65C842A9B75370019383C /* DropsRequiredView.swift in Sources */,
+				EC5888A02A94D7EB00FF3A5A /* Home.swift in Sources */,
+				ECABDB542AD1FCAF00BA7AE7 /* extesions.swift in Sources */,
+				C4C65C5E2A9B2D810019383C /* Plant Struct.swift in Sources */,
+				EC5889042A980E7A00FF3A5A /* CustomDataPicker.swift in Sources */,
+				C49268A72ACAF480003EA6F0 /* TodoDetailView.swift in Sources */,
+				EC58889A2A94D42300FF3A5A /* FinalView.swift in Sources */,
+				C49268B72ACD1F5C003EA6F0 /* DateFuncs.swift in Sources */,
+				C4C65C552A9B2CD90019383C /* PlantListView.swift in Sources */,
+				EC5889002A980E1F00FF3A5A /* HomeSdhedule.swift in Sources */,
+				EC58886A2A93AE1400FF3A5A /* eleos_LApp.swift in Sources */,
+				C492689E2ACAEA28003EA6F0 /* CounterView.swift in Sources */,
+				EC5888AC2A95512E00FF3A5A /* CircularProgressView.swift in Sources */,
+				ECABDB5A2AD1FCEC00BA7AE7 /* eleosHome.swift in Sources */,
+				EC58889E2A94D7CE00FF3A5A /* TabsView.swift in Sources */,
+				C49268B12ACAF54D003EA6F0 /* Todo+sample.swift in Sources */,
+				C4C65C602A9B2D950019383C /* PlantData.swift in Sources */,
+				ECABDB502AD1FC7400BA7AE7 /* ForecastCard.swift in Sources */,
+				EC5889062A980E9F00FF3A5A /* Task.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EC5888722A93AE1700FF3A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC5888732A93AE1700FF3A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC5888752A93AE1700FF3A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"eleos_L/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TJ.eleos-L";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC5888762A93AE1700FF3A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"eleos_L/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TJ.eleos-L";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC5888612A93AE1400FF3A5A /* Build configuration list for PBXProject "eleos_L" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5888722A93AE1700FF3A5A /* Debug */,
+				EC5888732A93AE1700FF3A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5888742A93AE1700FF3A5A /* Build configuration list for PBXNativeTarget "eleos_L" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5888752A93AE1700FF3A5A /* Debug */,
+				EC5888762A93AE1700FF3A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC58885E2A93AE1400FF3A5A /* Project object */;
+}
