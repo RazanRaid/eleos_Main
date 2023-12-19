@@ -18,10 +18,10 @@ struct HomeWidget: View {
             
             HStack(alignment: .bottom) {
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("Reflicting")
+                    Text("Consistency")
                         .font(.system(size: 35))
                     VStack(alignment: .leading, spacing: 2) {
-                        Text("more drops more life")
+                        Text("")
                             .font(.footnote)
                             .foregroundColor(.white)
                         
@@ -29,6 +29,7 @@ struct HomeWidget: View {
                         Text(forecast.location)
                             .font(.body)
                             .lineLimit(1)
+                            .offset(y: -15)
                     }
                     
                 }
@@ -39,20 +40,21 @@ struct HomeWidget: View {
                         .padding(.trailing, 4)
                     
                     
-                    Text("how do i reflect?")
+                    Text("")
                         .font(.footnote)
                         .padding(.trailing, 24)
                 }
                 
             }
+            
             .foregroundColor(.white)
             .padding(.bottom, 20)
             .padding(.leading, 20)
         }
-        
         .frame(width: 342, height: 184, alignment: .bottom)
         
     }
+    
 }
 
 struct HomeWidget_Previews: PreviewProvider {

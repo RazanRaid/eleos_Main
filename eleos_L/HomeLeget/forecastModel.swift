@@ -75,11 +75,11 @@ extension Forecast {
     ]
     
     static let cities: [Forecast] = [
-        Forecast(date: .now, weather: .rainy, probability: 0, temperature: 19, high: 24, low: 18, location: "Elaborate"),
-        Forecast(date: .now, weather: .windy, probability: 0, temperature: 20, high: 21, low: 19, location: "Learn"),
-        Forecast(date: .now, weather: .stormy, probability: 0, temperature: 13, high: 16, low: 8, location: "Earn for more"),
-        Forecast(date: .now, weather: .tornado, probability: 0, temperature: 23, high: 26, low: 16, location: "Obtain more"),
-        Forecast(date: .now, weather: .tornado, probability: 0, temperature: 23, high: 26, low: 16, location: "Search for more")
+        Forecast(date: .now, weather: .rainy, probability: 0, temperature: 19, high: 24, low: 18, location: "stay consistent."),
+        Forecast(date: .now, weather: .windy, probability: 0, temperature: 20, high: 21, low: 19, location: "learn more."),
+        Forecast(date: .now, weather: .stormy, probability: 0, temperature: 13, high: 16, low: 8, location: "stay productive."),
+        Forecast(date: .now, weather: .tornado, probability: 0, temperature: 23, high: 26, low: 16, location: "reward yourself."),
+
 
     ]
 }
